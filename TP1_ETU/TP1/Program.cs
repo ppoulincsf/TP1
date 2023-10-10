@@ -1,48 +1,28 @@
 ﻿class Program
 {
-  #region OPERATIONS_LOGOS
-  const string MAIN_APP_LOGO = @"
-    _____                ________   
-      /  _  \ ___  ___ ____ \______ \  
-     /  /_\  \\  \/  // __ \ |    |  \ 
-    /    |    \>    <\  ___/ |    `   \
-    \____|__  /__/\_ \\___  >_______  /
-            \/      \/    \/        \/ 
+  #region LOGOS
+    const string MAIN_APP_LOGO = @"
 
+_________ .__                                __                
+\_   ___ \|  |__ _____ ____________    _____/  |_  ___________ 
+/    \  \/|  |  \\__  \\_  __ \__  \ _/ ___\   __\/ __ \_  __ \
+\     \___|   Y  \/ __ \|  | \// __ \\  \___|  | \  ___/|  | \/
+ \______  /___|  (____  /__|  (____  /\___  >__|  \___  >__|   
+        \/     \/     \/           \/     \/          \/       
+__________      .__.__       .___                              
+\______   \__ __|__|  |    __| _/___________                   
+ |    |  _/  |  \  |  |   / __ |/ __ \_  __ \                  
+ |    |   \  |  /  |  |__/ /_/ \  ___/|  | \/                  
+ |______  /____/|__|____/\____ |\___  >__|                     
+        \/                    \/    \/                         
  ";
-  const string AVAILABLE_OPERATIONS_LOGO = @"
-    
-________                              __  .__                      
-\_____  \ ______   ________________ _/  |_|__| ____   ____   ______
- /   |   \\____ \_/ __ \_  __ \__  \\   __\  |/  _ \ /    \ /  ___/
-/    |    \  |_> >  ___/|  | \// __ \|  | |  (  <_> )   |  \\___ \ 
-\_______  /   __/ \___  >__|  (____  /__| |__|\____/|___|  /____  >
-        \/|__|        \/           \/                    \/     \/ 
-";
-  const string DEPOSIT_LOGO = @"
-************A COMPLETER************
-";
-  const string WITHDRAWAL_LOGO = @"
-************A COMPLETER************
-";
+  
   #endregion
 
   
   public static void Main(string[] args)
   {
-    // Il n'est pas possible de quitter le Main car on y retourne
-    // systématiquement après une sortie du menu des opérations
-    // C'est inhabituel de faire un while(true) mais ça se peut
-    // dans certaines circonstances, dont celle-ci.
-    while (true)
-    {
-      // Gérer l'authentification
-      
-
-
-      // Gérer le menu principal (celui des opérations)
-      
-    }
+  
   }
 
   
